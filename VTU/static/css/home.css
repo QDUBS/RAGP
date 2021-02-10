@@ -1,0 +1,356 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*HEADER IMAGE*/
+.header{
+	position:absolute;
+	width:100%;
+    overflow:hidden;
+}
+
+.header_image{
+	width:3780px;
+	height:650px;
+	position:relative;
+	margin:0 5px 0 -2515px;
+	-webkit-animation-name:billimage;
+	-webkit-animation-duration:13s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+    -webkit-animation-play-state: running;
+    display: flex;
+}
+
+@-webkit-keyframes billimage{
+	0%{left:0px;}
+	10%{left:0px;}
+	20%{left:1260px;}
+	30%{left:1260px;}
+	40%{left:2520px;}
+	50%{left:2520px;}
+	60%{left:1260px;}
+	70%{left:1260px;}
+	80%{left:1260px;}
+	90%{left:0px;}
+	100%{left:0px;}
+}
+
+.image{
+    width: 1260px;
+    height: 650px;
+    float: left;
+}
+
+.img{
+	width: 1260px;
+	height: 650px;
+    float: left;
+}
+
+
+/*OVERLAY*/
+.header_text{
+	font:bolder 35px "Myriad Pro";
+	color: lightblue;
+}
+
+.overlay{
+	width:100%;
+	height:650px;
+	background:linear-gradient(#000000b3, rgba(0,0,0,1));
+	position:relative;
+	bottom:650px;}
+	
+.nav_bar {
+	width: 85%;
+	display: flex;
+	align-items: center;
+	position relative;
+	top: -150px;
+	left: 85px;
+}
+
+.header_text{
+	font: bolder 30px Potta One;
+	color:orange;
+	word-spacing:3px;
+	padding-left: 50px;
+	text-decoration:none;
+}
+
+.header_text span {
+	font: bolder 19px 'Myriad Pro';
+	color:white;
+	word-spacing:3px;
+	padding-left 40px;
+	text-decoration:none;
+}
+
+.header_text_2{
+	font: bolder 40px Potta One;
+	color:red;
+	word-spacing:3px;
+	position: relative;
+	left: -130px;
+	padding-top: 65px;
+	text-decoration:none;
+}
+
+.menu_links{
+	flex: 1;
+	align-items: center;
+	text-align: right;
+	position: relative;
+	top: 20px;
+	left: 120px;
+}
+
+.menu_links a{
+	font:600 16px "Myriad Pro";
+	color:yellow;
+	word-spacing:3px;
+	margin-left:60px;
+	text-decoration:none;
+}
+
+
+/*OUR MISSION*/
+.our_vision_interface{
+	background-color:#DFFFFF;
+	width:100%;
+	height:450px;
+	position:absolute;
+	top:650px;
+	border-bottom: 1.8px solid darkred;
+}
+
+.our_vision_image{
+	width:450px;
+	height:300px;
+	position:relative;
+	top:75px;
+	left:50px;}
+
+.our_vision_head_text{
+	color:darkred;
+	font: 700 22px "Myriad Pro";
+	word-spacing: 6px;
+	position: relative;
+	text-align: right;
+	right: 202px;
+	bottom: 200px;
+}
+.our_vision_statement{
+	width: 600px;
+	height: 10px;
+	color:darkred;
+	font: 400 16px "Myriad Pro";
+	left: 528px;
+	position:relative;
+	bottom: 185px;
+	line-height: 35px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.our_vision_btn{
+	display: block;
+	background-color:#DFFFFF;
+	width:140px;
+	height:50px;
+	color:darkred;
+	text-align:center;
+	font: 500 16px "Myriad Pro";
+	text-decoration: none;
+	padding-top:3px;
+	position:relative;
+	left:525px;
+	bottom:30px;
+	border: 2.5px solid darkred;
+	border-radius:25px;
+	cursor:pointer;
+	transition:background 0.5s;
+}
+	
+.our_vision_btn:hover{
+	background-color: darkred;
+	width:140px;
+	height:50px;
+	color:#FFF;
+	text-align:center;
+	font:400 16px "Myriad Pro";
+	padding-top:3px;
+	cursor:pointer;}
+
+
+
+/*WHAT WE DO SECTION*/
+.activity_header{
+	color:orange;
+	font:600 36px "Myriad Pro";
+	position:relative;
+	top:1140px;
+	text-align:center;
+}
+
+.our_activities_container {
+	width: 100%;
+	height: 700px;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 1220px;	
+}
+
+.activities_slider {
+	background-color: white;
+	width: 100%;
+	height: 650px;
+	position: relative;
+	overflow: hidden;
+}
+
+.activities_slides {
+	width: 498%;
+	height: 650px;
+	display: flex;
+}
+
+.activities_slides input { 
+	display: none;
+}
+
+.activities_slide {
+	width: 1260px;
+	display: flex;
+	transition: 2s;
+}
+
+.networking{
+	width: 370px;
+	height: 330px;
+	position: relative;
+	border: 0.5px solid #CCC;
+	margin-left: 37.5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.networking_special {
+	width: 370px;
+	height: 330px;
+	position: relative;
+	border: 0.5px solid #CCC;
+	margin-left: 445px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activity_image {
+	width:370px;
+	height:266px;
+	position:relative;
+}
+	
+.activity_text{
+	color:#000;
+	font:600 16px "Myriad Pro";
+	text-align:center;
+	padding:20px;
+}
+
+/*Css For Manual*/
+.navigation_manual {
+	position: absolute;
+	width: 800px;
+	margin-top: 375px;
+	margin-left: 228px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual_btn {
+	border: 2px solid #333;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual_btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual_btn:hover {
+	background: #333;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+
+/*FOOTER*/
+.footer {
+	background-color: black;
+	width:100%;
+	height: 300px;
+	position: relative;
+	top: 1620px;
+	display: flex;
+}
+
+.footer_about {
+	width: 450px;
+	margin-left: 50px;
+	position: absolute;
+	top: 40px;
+	color: lightgray;
+	font: 400 17px "Myriad Pro";
+	line-height: 23px;
+}
+
+.mail_phone_flex {
+	width: 50px;
+	position: absolute;
+	top: 40px;
+	color: lightgray;
+	font: 400 17px "Myriad Pro";
+}
+
+.phone_container {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.phone_1 {
+	padding-left: 700px;
+}
+
+.phone_2 {
+	padding-left: 20px;
+}
+
+.mail_container {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.mail_1 {
+	padding-left: 700px;
+}
+
+.mail_2 {
+	padding-left: 20px;
+}

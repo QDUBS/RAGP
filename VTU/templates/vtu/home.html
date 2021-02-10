@@ -1,0 +1,167 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">    
+    <script type="text/javascript" src="{% static 'js/slideshow.js' %}"></script>
+</head>
+<body>
+
+    <div class="whole_page">
+        
+        <div class="header">
+            <div class="header_image">
+                <div class="container">
+                    <div class="image">
+                        <img  src="{% static 'images/vtu 1.jpg' %}" class="img" alt="">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="image">
+                        <img  src="{% static 'images/vtu 4.jpg' %}" class="img" alt="">
+                    </div>
+                </div>
+
+                <div class="container">
+                     <div class="image">
+                        <img  src="{% static 'images/vtu 5.jpg' %}" class="img" alt="">
+                    </div>
+                </div>
+
+                <!--
+                    <P>WHAT BETTER TIME TO CREATE A PASSIVE INCOME STREAM THAN NOW</P>
+                    <P>YOU CAN LIVE THE LIFE YOU WANT TO LIVE EASILY</P>
+                    <P>SOMETHING ELSE</P>
+                -->
+            </div>
+
+            <div class="overlay">
+                <div class="nav_bar">
+                    <P class="header_text">RECHARGE <span>and</span> </P>
+                    <p class="header_text_2">GETPAID</p>
+                    
+                    <div class="menu_links">
+                        <a href="{% url 'home' %}">HOME</a>
+                        <a href="{% url 'about' %}">ABOUT US</a>
+                        <a href="{% url 'bizinfo' %}">HOW IT WORKS</a>
+                        <a href="{% url 'contact' %}">CONTACT US</a>
+                    </div>
+                </div>  	
+            </div>
+        </div>
+        
+
+        <div class="our_vision_interface">
+            <img  src="{% static 'images/vtu 2.jpg' %}" class="our_vision_image" alt="">
+            <div class="our_vision_head_text">HOW TO GENERATE INCOME USING THIS PLATFORM</div>
+            <div class="our_vision_statement">
+                All BANKS in Nigeria have become VTU vendors by selling AIRTIME via VTU on all their channels and they are seriously advertising this BUSINESS.
+                In fact, some banks have deployed USSD to sell airtime. So, if this business is not PROFITABLE then why will the banks INVEST so much into it?....
+            </div>
+
+            <a href="{% url 'bizinfo' %}"><button class="our_vision_btn">Learn More</button></a>
+        </div>
+
+        <div class="activity_header">REGISTRATION PACKAGES</div>
+
+        
+        <div class="our_activities_container">
+            <div class="activities_slider">
+                <div class="activities_slides">
+                    <input type="radio" name="radio_btn" id="radio1">
+                    <input type="radio" name="radio_btn" id="radio2">
+                    <input type="radio" name="radio_btn" id="radio3">
+
+                    <div class="activities_slide first">
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 3.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">PEARL MEMBER @ N5,000</div>
+                        </div>
+                        
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 4.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">BRONZE MEMBER @ N10,000</div>
+                        </div>
+                        
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 5.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">SILVER @ N20,000</div>
+                        </div>
+                    </div>
+
+                    <div class="activities_slide">
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 6.png' %}" class="activity_image" alt="">
+                            <div class="activity_text">GOLD @ N30,000</div>
+                        </div>
+                        
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 7.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">DIAMOND @ N40,000</div>
+                        </div>
+                        
+                        <div class="networking">
+                            <img  src="{% static 'images/RAGP 8.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">PLATINUM @ N50,000</div>
+                        </div>
+                    </div>
+
+                    <div class="activities_slide">
+                        <div class="networking_special">
+                            <img  src="{% static 'images/RAGP 9.jpg' %}" class="activity_image" alt="">
+                            <div class="activity_text">EXECUTIVE PLATINUM @ N100,000</div>
+                        </div>
+                    </div>
+
+                    <!--Manual Navigation Start-->
+                    <div class="navigation_manual">
+                        <label for="radio1" class="manual_btn"></label>
+                        <label for="radio2" class="manual_btn"></label>
+                        <label for="radio3" class="manual_btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <div class="footer_about">
+                RECHARGE AND GET PAID (RAGP) is a Nigerian owned telecom company headquartered in Abuja and duly registered with the Corporate Affairs Commission (CAC); (RC Number: 
+                1279919) and licensed by the Nigerian Communications Commission (NCC) to carry out telecoms-related businesses.
+                RAGP is a platform that help create wealth for people. Our mission is to provide safe and secure place where a life changing income can be built.
+                Our company is the simplest, easiest and fastest way to achieving wealth, help you set up Plan B Financially and earn residual income seamlessly.
+            </div>
+
+            <div class="mail_phone_flex">
+                <div class="phone_container">
+                    <div class="phone_1"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                    <div class="phone_2">+2348034195656</div>
+                    <div class="phone_2">+2348103344427</div>
+                </div>
+                
+                <div class="mail_container">
+                    <div class="mail_1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="mail_2">inforechargeandgetpaid@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        
+     </div>    
+
+
+</body>
+</html>

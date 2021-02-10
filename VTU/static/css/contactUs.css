@@ -1,0 +1,263 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*THE HEADER*/
+.header{
+	background-color: darkred;
+	width:100%;
+	height:130px;
+    position:relative;
+    z-index: 1;
+}
+.nav_bar {
+	width: 85%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: -20px;
+}
+
+.header_text{
+	font: bolder 30px Potta One;
+	color:orange;
+	word-spacing:3px;
+	padding-left: 50px;
+	text-decoration:none;
+}
+
+.header_text span {
+	font: bolder 19px 'Myriad Pro';
+	color:white;
+	word-spacing:3px;
+	padding-left 40px;
+	text-decoration:none;
+}
+
+.header_text_2{
+	font: bolder 40px Potta One;
+	color:red;
+	word-spacing:3px;
+	position: relative;
+	left: -130px;
+	padding-top: 65px;
+	text-decoration:none;
+}
+
+.menu_links{
+	flex: 1;
+	align-items: center;
+	text-align: right;
+	position: relative;
+	top: 20px;
+	left: 120px;
+}
+
+.menu_links a{
+	font:600 16px "Myriad Pro";
+	color:yellow;
+	word-spacing:3px;
+	margin-left:60px;
+	text-decoration:none;
+}
+
+
+/*PICTURES SECTION*/
+/*Image Section*/
+.pictures{
+	width:100%;
+	height:600px;
+	position:relative;
+	bottom:40px;}
+
+/*Overlay Section*/
+.overlay{
+	width:100%;
+	height:600px;
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+	position:relative;
+	bottom:644px;}
+	
+.contact_us{
+	color:red;
+	font: 700 25px "Myriad Pro";
+	text-align:right;
+	padding-top:130px;
+	padding-right:50px;
+	margin-bottom:20px;}
+	
+		
+/*BODY SECTION*/
+.body{
+	width:100%;
+	height:1300px;
+	background-color:#F3F3F3;
+	position:absolute;
+	top:350px;}
+	
+.body_header{
+	color:#000;
+	font:bold 27px "Myriad Pro";
+	text-align:center;
+	padding-top:50px;
+	margin-bottom:15px;}
+	
+.body_horizontal_2{
+	border: 1px solid #000;
+	position:relative;
+	width:200px;}
+	
+.welcome_text{
+	color:#000;
+	font:100 19px "Myriad Pro";
+	text-align:center;
+	line-height:150%;
+	width:1130px;
+	padding-top:30px;
+	padding-left:55px;
+	margin-bottom15px;
+}
+
+.welcome_text span{
+	color:#000;
+	font: 600 19px "Myriad Pro";
+}
+
+
+/*Contact Us*/
+.body_contact_image{
+    font:100 100px "Myriad Pro";
+    color: black;
+    position:relative;
+    text-align: center;
+	top:80px;
+}
+
+.body_contact_image_2 {
+    font:100 50px "Myriad Pro";
+    color: black;
+    position:relative;
+    text-align: center;
+	top:80px;
+}
+
+.body_contact_text{
+	color:#000;
+	font:500 22px "Myriad Pro";
+	text-align:center;
+	padding-top:90px;
+	margin-bottom:25px;}
+	
+.body_contact_text_2{
+	color:#000;
+	font:100 19px "Myriad Pro";
+	text-align:center;
+	padding-top:0px;
+	margin-bottom:25px;}
+	
+.body_contact_text_3{
+	color:#000;
+	font:bold 19px "Myriad Pro";
+	text-align:center;
+	margin-bottom:25px;}
+	
+.phone{
+	font:100 18px "Myriad Pro";
+	padding-left:5px;}
+
+.body_contact_text_4{
+	color:#000;
+	font:bold 19px "Myriad Pro";
+	text-align:center;
+    margin-bottom:95px;
+}
+	
+.mail{
+	font:100 18px "Myriad Pro";
+	padding-left:5px;}
+	
+/*Connect With Us*/
+.body_connect_image {
+	font:100 60px "Myriad Pro";
+    color: black;
+    position:relative;
+    top: 30px;
+    text-align: center;
+}
+
+.body_connect_text {
+	color:#000;
+	font:500 22px "Myriad Pro";
+	text-align:center;
+	padding-top:50px;
+	margin-bottom:25px;}
+	
+.body_connect_text_2 {
+	color:#000;
+	font:100 19px "Myriad Pro";
+    text-align:center;
+    margin-bottom: 25px;
+}
+
+.body_connect_text_3 {
+	color:#000;
+	font:bold 19px "Myriad Pro";
+	text-align:center;
+	margin-bottom:95px;
+}
+
+
+/*FOOTER*/
+.footer {
+	background-color: black;
+	width:100%;
+	height: 300px;
+	position: absolute;
+	top: 1600px;
+	display: flex;
+}
+
+.footer_about {
+	width: 450px;
+	margin-left: 50px;
+	position: absolute;
+	top: 40px;
+	color: lightgray;
+	font: 400 17px "Myriad Pro";
+	line-height: 23px;
+}
+
+.mail_phone_flex {
+	width: 50px;
+	position: absolute;
+	top: 40px;
+	color: lightgray;
+	font: 400 17px "Myriad Pro";
+}
+
+.phone_container {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.phone_1 {
+	padding-left: 700px;
+}
+
+.phone_2 {
+	padding-left: 20px;
+}
+
+.mail_container {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.mail_1 {
+	padding-left: 700px;
+}
+
+.mail_2 {
+	padding-left: 20px;
+}
